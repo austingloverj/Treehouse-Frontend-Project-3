@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Code Review</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="title">The Code Review</h1>
+    </header>
+
+    <p class="sign-up">Signup for our newsletter</p>
+    <p class="pitch">Get the latest news on how code is going sent right to your inbox</p>
+    <br>
+
+    <hr>
+
+
+    <div class="form-container">
+
+        <form action="index.html" method="post">
+
+            <fieldset class="contact-info">
+                <legend class="form-header">Contact Information</legend>
+
+                <br>
+                <br>
+
+                <div class="flex">
+                    <label for="name"> Full Name</label>
+                    <input type="text" id="name" name="full_name" placeholder="Reqiured" required>
+                </div>
+
+                <br>
+                <br>
+
+                <div class="flex">
+                    <label for="email">Email Address</label>
+                    <input type="text" id="email" name="user_email" placeholder="Reqiured" required>
+                </div>
+
+                <br>
+                <br>
+
+                <div class="flex">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" name="user_phone" id="phone" placeholder="Required" required>
+                </div>
+
+                <br>
+                <br>
+                <div class="flex">
+                    <label for="address">Street Address</label>
+                    <input type="text" id="address" name="user_address" placeholder="Required" required>
+                </div>
+
+                <br>
+                <br>
+
+                <div class="flex">
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="user_city" placeholder="Required" required>
+                </div>
+
+                <br>
+                <br>
+
+                <div class="flex">
+                    <label for="state">State</label>
+                    <select id="state" name="state" required>
+                        <option value="" disabled selected>Select State</option>
+                        <option value="Alabama">Alabama</option>
+                        <option value="Alaska">Alaska</option>
+                        <option value="Arizona">Arizona</option>
+                        <option value="Arkansas">Arkansas</option>
+                        <option value="California">California</option>
+                        <option value="Colorado">Colorando</option>
+                        <option value="Conneticut">Conneticut</option>
+                    </select>
+                </div>
+
+                <br>
+                <br>
+
+                <div class="flex">
+                    <label for="zip">Zip Code</label>
+                    <br>
+                    <input type="text" id="zip" name="user_zip" required>
+                </div>
+
+            </fieldset>
+
+            <br>
+            <br>
+
+            <hr>
+
+            <fieldset>
+                <legend class="form-header">Newsletter</legend>
+
+                <p class="checkbox-header">Select the newsletters you would like to recieve.</p>
+
+                <br>
+
+                <div class="checkboxes">
+                    <input type="checkbox" id="html" name="html" value="html">
+                    <label for="html"> HTML News</label>
+                    <br>
+                    <br>
+                    <input type="checkbox" id="css" name="css" value="css">
+                    <label for="css">CSS News</label>
+                    <br>
+                    <br>
+                    <input type="checkbox" id="javascript" name="javascript" value="javascript">
+                    <label for="javascript">Javascript News</label>
+                </div>
+            </fieldset>
+
+            <br>
+
+            <p class="form-header">Newsletter Format</p>
+
+            <br>
+
+            <div class="radios">
+                <input type="radio" id="html_radio" name="html_radio" value="html_radio">
+                <label for="html_radio">HTML</label>
+                <br>
+                <br>
+                <input type="radio" id="text_doc" name="text_doc" value="text_doc">
+                <label for="text_doc">Plain Text</label>
+            </div>
+
+            <p class="format">Other topics you'd like to hear about</p>
+            <br>
+
+                <input type="textarea" id="textarea" name="textarea">
+
+                <br>
+                <div id="submit">
+                    <input type="submit" value="Submit">
+                </div>
+
+
+
+
+            <footer>
+                <p class="checkbox-header">&copy; The Code Review 2020</p>
+            </footer>
+
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
