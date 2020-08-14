@@ -50,7 +50,7 @@
 
                 <div class="flex">
                     <label for="phone">Phone Number</label>
-                    <input type="text" name="user_phone" id="phone" placeholder="Required" required>
+                    <input type="tel" name="user_phone" id="phone" placeholder="Required" required>
                 </div>
 
                 <br>
@@ -129,18 +129,24 @@
             <br>
 
             <div class="radios">
-                <input type="radio" id="html_radio" name="html_radio" value="html_radio">
+                <input type="radio" id="html_radio" name="radio" value="html_radio">
                 <label for="html_radio">HTML</label>
                 <br>
                 <br>
-                <input type="radio" id="text_doc" name="text_doc" value="text_doc">
+                <input type="radio" id="text_doc" name="radio" value="text_doc">
                 <label for="text_doc">Plain Text</label>
             </div>
 
-            <p class="format">Other topics you'd like to hear about</p>
+            <br>
             <br>
 
-                <input type="textarea" id="textarea" name="textarea">
+            <label for="textarea" class="format">Other topics you'd like to hear about</label>
+
+            <br>
+            <br>
+
+                <textarea id="textarea" name="textarea">
+                </textarea>
 
                 <br>
                 <div id="submit">
