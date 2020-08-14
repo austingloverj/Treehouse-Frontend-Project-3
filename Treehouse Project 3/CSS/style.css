@@ -47,7 +47,7 @@ hr {
     margin-left: 10px;
 }
 
-input[type="text"],
+input[type="text"], input[type="tel"],
 select {
     margin-top: 10px;
     height: 40px;
@@ -82,7 +82,7 @@ select:focus {
     color: rgb(168, 168, 168);
 }
 
-input[type="textarea"] {
+#textarea {
     width: 80%;
     height: 120px;
     margin-left: 30px;
@@ -132,6 +132,10 @@ footer {
     label {
         display: inline-block;
         width: 90px;
+    }
+
+    .format {
+        display: inline;
     }
 
 
